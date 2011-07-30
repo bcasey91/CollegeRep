@@ -1,0 +1,7 @@
+<h1 id = "newPage">Enter student info</h1>
+<div class = "new_person_form round">
+<%= form_for @person do |f| %>
+  <%= render 'fields', :f => f %>
+  <%= f.submit "Make new person article" %>
+<% end %>
+</div>

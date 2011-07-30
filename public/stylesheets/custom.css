@@ -1,0 +1,77 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+}
+/*General Layout*/
+.round{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+.nav_bar{
+/*background-color: #66CDAA;*/
+background-color:#EBECE4;
+text-align: left;
+}
+
+.nav_bar tr td{
+padding:1em;
+border:1px;
+}
+.nav_bar tr td a{
+text-decoration:none;
+}
+/* Home page */
+.tsux{
+position:absolute;
+left: 30%;
+padding: 1em;
+margin: 1em;
+background-color: #EBECE4;
+}
+/*New Person Page */
+.new_person_form{
+position:absolute;
+left:38%;
+top:25%;
+/*background-color:#66CDAA;*/
+background-color:#EBECE4;
+padding:2em;
+}
+
+#newPage{
+position:absolute;
+top:0%;
+left:40%;
+}
+
+/*Person Index Page*/
+.person_index{
+position:absolute;
+top:0%;
+left:40%;
+}
+.info a{
+text-decoration: none;
+}
+/*Person Show Page*/
+.name_display{
+position:absolute;
+top: 0%;
+left: 45%;
+background-color: #EBECE4;
+padding:1em;
+}
+
+.page_info{
+text-align:center;
+font-style:arial;
+position:absolute;
+left:40%;
+top:100%;
+}
+
+.person_index h2 a{
+text-decoration:none;
+}
+
